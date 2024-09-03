@@ -1,0 +1,139 @@
+
+body{
+    background-color: #F4EDE9;
+    color: #374853;
+}
+.ss{
+    height: 3rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: #374853;
+    color: white;
+    text-align: center;
+    font-size: 180%;
+    padding-top:4%;
+    font-style: italic;
+}
+#p1{
+    font-size: 180%;
+    padding-top: 0%;
+}
+#p2{
+    font-style: italic;
+    font-weight: bold;
+}
+.sris{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+}
+.name{
+    display: flex;
+}
+.head{
+    display: flex;
+    padding-top: 3%;
+}
+.info{
+    display: flex;
+    gap: 4rem;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    font-size: 200%;
+}
+.box{
+    width: 20%;
+    min-height: 35rem;
+    background-color: #374853;
+    margin-top: 1%;
+}
+#about:hover , #project:hover , #skills:hover ,#contact:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.am , .sk, .pr{
+    background-color: #9BACB9;
+    border-radius: 5%;
+    padding-top: 1%;
+    padding-left: 1%;
+    position: fixed;
+    left: 15rem;
+    font-weight: bold;
+}
+.am{
+    position: fixed;
+    top: 10rem;
+    height: 10.5rem;
+    width: 18rem;
+}
+.sk{
+    position: fixed;
+    top: 23rem;
+    height: 6.5rem;
+    width: 23rem;
+}
+.pr{
+    position: fixed;
+    top: 32rem;
+    height: 10.5rem;
+    width: 19rem;
+}
+.amh , .skh , .prh ,.cmh{
+    text-decoration: underline;
+    font-size: 150%;
+}.ami{
+    padding-left: 8%;
+}
+.body{
+    font-size: large;
+    color: black;
+}
+.ubox{
+    background-color: #374853;
+    border-radius: 5%;
+    height: 25rem;
+    width: 20rem ;
+    position: fixed;
+    top: 12rem;
+    right: 19rem;
+
+}
+.lbox{
+    background-color: #9BACB9;
+    border-radius: 5%;
+    height: 25rem;
+    width: 20rem ;
+    position: fixed;
+    top: 13rem;
+    right: 20rem;
+}
+img{
+    height: 20rem;
+    width: 15rem ;
+    position: fixed;
+    top: 15rem;
+    right: 22rem;
+}
+.cm{
+    background-color: #374853;
+    color: white;
+    width: 20rem;
+    height: 8rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 0rem;
+    padding-right: 2.5%;
+}
+.cmh{
+    padding-top: 4%;
+    text-align: right;
+}
+.cmi{
+    padding-top: 6%;
+    font-size: 120%;
+    text-align: right;
+}
+i{
+    padding-right: 3%;
+}
